@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://df33qm7oxst4n"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 386.0
+offset_top = 123.0
+offset_right = 574.0
+offset_bottom = 245.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 430.0
+offset_top = 266.0
+offset_right = 529.0
+offset_bottom = 290.0
+text = "SCORE : 0"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 430.0
+offset_top = 97.0
+offset_right = 529.0
+offset_bottom = 120.0
+text = "NEXR PIECE
+"
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 91.0
+offset_top = 190.0
+offset_right = 321.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 30
+text = "GAME OVER"
+horizontal_alignment = 1
